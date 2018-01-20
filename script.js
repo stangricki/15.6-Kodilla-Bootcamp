@@ -74,7 +74,7 @@ class Stopwatch {
 
     const saveButton = container.getElementsByClassName('save');
     saveButton[0].addEventListener('click', () => {
-      this.container.querySelector('.results').innerHTML += `<li>${stopwatch.display.textContent}</li>`;
+      this.container.querySelector('.results').innerHTML += `<li>${this.display.textContent}</li>`;
     }); 
 
     // delete BUTTON
